@@ -1,0 +1,180 @@
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/img/Header.jpg");
+  background-size: cover;
+  height: 40vh;
+}
+
+.pizza-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.listIngredients {
+  text-align: left;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+  width: 250px;
+}
+
+.pizza-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.price {
+  font-weight: bold;
+  color: #e63946;
+}
+
+.cart {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-image {
+  border-radius: 5px;
+}
+
+.product {
+  width: 100%;
+  object-fit: cover;
+}
+
+.target {
+  width: 100%;
+  border: 1px solid #a7a7a7;
+  border-radius: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+
+.botones {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.vermas {
+  background: #fff;
+  border: 1px solid #a7a7a7;
+  border-radius: 5px;
+}
+
+.añadir {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #a7a7a7;
+  border-radius: 5px;
+}
+
+.separacion {
+  width: 100%;
+}
+
+.cont-menu {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 10px 0 10px 10px;
+  padding: 0;
+  align-items: center;
+}
+
+.menu {
+  background-color: #212529;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.list {
+  border: 1px solid #a7a7a7;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.total {
+  border: 1px solid #56c5f8;
+  border-radius: 5px;
+  margin: 0 10px 0 0;
+  color: #56c5f8;
+}
+
+.containerRegister {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.registro {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.containerLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  margin: 5px 0;
+  width: 250px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.inputEmailRegister,
+.inputpassRegister,
+.inputConfPassRegister,
+.inputEmailLogin,
+.inputPassLogin {
+  display: flex;
+  flex-direction: column;
+}
