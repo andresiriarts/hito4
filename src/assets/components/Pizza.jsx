@@ -44,9 +44,11 @@ const Pizza = () => {
     <div className="pizza-detail">
       <h1>{pizza.name}</h1>
       <img src={pizza.img} alt={pizza.name} className="pizza-image" />
-      <p><strong>Precio:</strong> ${pizza.price}</p>
+      <p><strong>Descripción:</strong> {pizza.desc}</p>
+      <hr className="separacion" />
       <p><strong>Ingredientes:</strong> {pizza.ingredients.join(', ')}</p>
-      <p><strong>Descripción:</strong> {pizza.description}</p>
+      <hr className="separacion" />
+      <p><strong>Precio:</strong> ${pizza.price}</p>
       <button disabled>Añadir al carrito</button>
     </div>
   );
